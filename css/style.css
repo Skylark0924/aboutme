@@ -24,7 +24,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: rgb(248, 117, 117);
     outline: none;
     &:hover {
         text-decoration: none;
@@ -81,11 +81,15 @@ h2 {
 
 h3 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 20px;
+    line-height: 26px;
     padding-bottom: 3px;
     font-weight: 400;
     margin: 0px;
+    border-bottom: #cac9c6 6px solid;
+    color: #5b4c5c;
+    padding-bottom: 9px;
+    display: inline-block;
 }
 
 h4 {
@@ -106,6 +110,18 @@ h5 {
     font-weight: 400;
     margin: 0px;
 }
+
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    line-height: 24px;
+    padding-bottom: 6px;
+    font-weight: 400;
+    margin: 0px;
+    display: inline-block;
+    color: #5b4c5c;
+}
+
 
 .heading {
     text-align: center;
